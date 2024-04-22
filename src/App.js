@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <p>API URL: {process.env.REACT_APP_API_URL}</p>
         </p>
         <a
           className="App-link"
